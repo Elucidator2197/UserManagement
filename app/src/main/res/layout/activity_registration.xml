@@ -1,0 +1,59 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ll2"
+    android:background="#f4c46c"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration form"
+        android:textSize="32dp"
+        android:textColor="#00f"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_age"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="Age"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_contact"
+        android:inputType="phone"
+        android:hint="Contact No."
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_emailaddress"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_passwd"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btnSubmit"
+       android:text="Submit"
+       android:textAllCaps="false"
+       android:onClick="submit"/>
+</LinearLayout>
